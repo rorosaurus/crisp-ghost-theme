@@ -79,7 +79,11 @@ h6 {
 	font-size:1.1em;
 }
 /* Page Elements */
-img, iframe {
+img{
+	max-width: 100%;
+	vertical-align: top;
+}
+iframe {
 	max-width: 100%;
 }
 a {
